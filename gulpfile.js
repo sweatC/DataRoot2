@@ -65,3 +65,14 @@ gulp.task('js:build', function () {
         .pipe(gulp.dest(path.build.js)) //Выплюнем готовый файл в build
         .pipe(reload({stream: true})); //И перезагрузим сервер
 });
+
+gulp.task('style:build', function () {
+    gulp.src(path.src.style) //Выберем наш main.scss
+        .pipe(sourcemaps.init()) //То же самое что и с js
+        .pipe(sass()) //Скомпилируем
+        .pipe(prefixer()) //Добавим вендорные префиксы
+        .pipe(cssmin()) //Сожмем
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(path.build.css)) //И в build
+        .pipe(reload({stream: true}));
+});
