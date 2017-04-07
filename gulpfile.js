@@ -55,3 +55,13 @@ gulp.task('html:build', function () {
         .pipe(gulp.dest(path.build.html)) //Выплюнем их в папку build
         .pipe(reload({stream: true})); //И перезагрузим наш сервер для обновлений
 });
+
+gulp.task('js:build', function () {
+    gulp.src(path.src.js) //Найдем наш main файл
+        .pipe(rigger()) //Прогоним через rigger
+        .pipe(sourcemaps.init()) //Инициализируем sourcemap
+        .pipe(uglify()) //Сожмем наш js
+        .pipe(sourcemaps.write()) //Пропишем карты
+        .pipe(gulp.dest(path.build.js)) //Выплюнем готовый файл в build
+        .pipe(reload({stream: true})); //И перезагрузим сервер
+});
