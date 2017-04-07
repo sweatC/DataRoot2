@@ -123,3 +123,16 @@ gulp.task('watch', function(){
         gulp.start('fonts:build');
     });
 });
+
+gulp.task('webserver', function () {
+    browserSync(config);
+});
+
+gulp.task('clean', function (cb) {
+    rimraf(path.clean, cb);
+});
+
+/***************
+	GULP  ******
+***************/
+gulp.task('default', ['build', 'webserver', 'watch']);
