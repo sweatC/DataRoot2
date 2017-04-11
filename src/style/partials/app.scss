@@ -3,27 +3,30 @@ TODO: ADD FONTS
 target (нужное значение) / contex(значение родителя) = * em
 */
 
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+
 #container {
-    width: 90%;
+    width: 100%;
     max-width: 1130px;
     margin-left: auto;
     margin-right: auto; 
 }
 
-.header {
-    width: 100%;
-}
-
 #content {
-    width: 78,831%
+    width: 78.831%
 }
 
 .footer {
-    width: 74,69%
-}
-
-img {
-    max-width: 100%;
+    width: 74.69%
 }
 
 
