@@ -3,34 +3,35 @@
 
 
 @font-face {
-    font-family: 'open_sansbold';
+    font-family: 'open_sans';
     src: url('opensans-bold-webfont.woff2') format('woff2'),
          url('opensans-bold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
 
 }
 
-
-
-
 @font-face {
-    font-family: 'open_sansregular';
+    font-family: 'open_sans';
     src: url('opensans-regular-webfont.woff2') format('woff2'),
          url('opensans-regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 
 }
 
-
-
-
 @font-face {
-    font-family: 'open_sanssemibold';
+    font-family: 'open_sans';
     src: url('opensans-semibold-webfont.woff2') format('woff2'),
          url('opensans-semibold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 600;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-ligthitalic-webfont.woff2') format('woff2'),
+         url('opensans-ligthitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-size: normal;
 }

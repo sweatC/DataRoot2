@@ -1,0 +1,133 @@
+body {
+  min-width: 1280px;
+  background: #edeeed;
+  display: block;
+  font-family: 'open_sans', sans-serif;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+    max-width: 78.8%;
+    margin: 0 auto;
+    width: 100%; 
+    text-align: center; 
+  }
+
+.metro-block {
+  margin: 20px auto;
+  box-sizing: border-box;
+  display: inline-block;
+  /*justify-content: space-around;
+  flex-direction: row; */
+  background-color: white;
+  width: 890px;
+  height: 333px;
+  max-height: 295em;
+  font-size: 15px;
+  text-align: left;
+}
+
+.metro-block {
+  background-image: url("../img/metro.png");
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+}
+
+.bottom-header-block-left {
+    margin: auto;
+    display: inline-block;
+    width: 50%; 
+}
+
+.metro-header {
+      display: flex;
+      justify-content: center;
+      font-weight: normal;
+      margin-bottom: 20px;
+}
+
+.variant-list {
+      display: block;
+      height:28px;
+      width: 236px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+}
+
+.variant-list {
+      height: 40px;
+      width: 313px;
+      font-size: 16px;
+      padding-left: 40px;
+      list-style: none;
+      display: flex;
+      margin-left: -40px;
+      align-content: center;
+}
+
+.metro_navigation {
+  color: black;
+ margin: 40px;
+  border-bottom: 2px solid transparent;
+}
+
+.metro_navigation:hover {
+  border-bottom: 2px solid #30ae62;
+  box-sizing: content-box;
+  width: 10px;
+}
+
+.button{
+    display: inline-block;
+    text-align: center;
+    transition: background 500ms;
+    opacity: 0.9;
+}
+
+.primary-btn {
+    font-size: 16px;
+    width: 320px;
+    border-radius: 2px;
+    padding-top: 10px;
+    background: #30ae62;
+    color: white;
+    height: 40px;
+    margin: 32px 0px 0px 32px;
+}
+
+.primary-btn:hover {
+  background: #50da88;
+}
+
+.primary-btn:disabled {
+  background: #30ae62;
+}
+
+.primary-btn:active {
+  background: #30ae99;
+}
+
+.dot{
+      font-weight: bolder;
+      color: red;
+      font-size: 30px;
+    }
+
+
+.search-second-form {
+  width: 344px;
+  height: 40px;
+  border-width: 2px;
+  border-color: #dfe3e6;
+  cursor: pointer; 
+  margin-left: 32px;
+}
+
+.search-form {
+
+}

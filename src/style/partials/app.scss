@@ -2,6 +2,13 @@
 TODO: ADD FONTS
 target (нужное значение) / contex(значение родителя) = * em
 */
+@import "../../fonts/stylesheet";
+@import "../header";
+@import "../metro";
+@import "../best_offers_kyiv";
+@import "../resent_anounce";
+@import "../section_fourth";
+@import "../section_fifth";
 
 img,
 embed,
@@ -22,11 +29,11 @@ img {
 }
 
 #content {
-    width: 78.831%
+    width: 78.831%;
 }
 
 .footer {
-    width: 74.69%
+    width: 74.69%;
 }
 
 

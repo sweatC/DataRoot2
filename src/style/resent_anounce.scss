@@ -1,0 +1,159 @@
+body {
+  /*min-width: 1280px; */
+  background: #edeeed;
+  display: block;
+  font-family: 'open_sans', sans-serif;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+    max-width: 890px; 
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; 
+    text-align: center; 
+  }
+
+ .last_ads_wrapper {
+  background-color: white;
+  width: 890px;
+  height: 444px;
+ }
+
+ .last_ads_header {
+  font-size: 24px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .last_ads_navigation {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  margin-left: 328px;
+  width: 236px;
+  justify-content: space-around;
+ }
+
+ .last_ads_list {
+  color: black;
+  font-size: 14px;
+ }
+
+.last_ads_select_wrapper {
+  margin-top: 30px;
+  display: flex;
+  width: 846px;
+  height: 225px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  justify-content: space-around;
+}
+
+.place {
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  margin-top: -15px;
+  opacity: 0.9;
+}
+
+.price {
+   display: flex;
+   font-size: 16px;
+}
+.features {
+  opacity: 0.4;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.last_ads_list {
+  border-bottom: 2px solid transparent;
+}
+
+.last_ads_list:hover {
+   border-bottom: 2px solid #30ae63;
+}
+
+.last_ads_list:hover, .see_all:hover {
+  -webkit-animation: fadein 2s; 
+       -moz-animation: fadein 2s; 
+        -ms-animation: fadein 2s; 
+         -o-animation: fadein 2s; 
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.metro_circle {
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin: 15px 0px 0px 0px;
+}
+
+.red {
+  background: #e71d32;
+}
+
+.blue {
+  background: #2573d8;
+}
+
+.last_ads_underground {
+  padding-left: 10px;
+}
+
+.check_icon {
+  margin:18px 0px 0px 15px;
+}
+
+.best_offers_bottom{
+  width: 890px;
+  height: 40px;
+  border-top: 2px solid #d8d8d8;
+  margin-left: -23px;
+  margin-top:50px;
+  line-height: 37px;
+}
+
+.see_all {
+  color: black;
+  font-size: 16px;
+  
+  opacity: 0.8;
+  margin: 30px 0px 0px 0px;
+}

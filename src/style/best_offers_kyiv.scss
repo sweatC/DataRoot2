@@ -1,0 +1,113 @@
+body {
+  /*min-width: 1280px; */
+  background: #edeeed;
+  display: block;
+  font-family: 'open_sans', sans-serif;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+    max-width: 890px; 
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; 
+    text-align: center; 
+  }
+
+.best_deals {
+  background-color: white;
+  width: 890px;
+  height: 426px;
+}
+
+.best_deals_block_background {
+  margin-right: auto;
+    margin-left: auto;
+  height: 426px;
+  width: 844px;
+  background-image: url('../img/wall.png');
+  background-repeat: space no-repeat;
+  background-position: 80% 33%;
+}
+
+.best_deals_header {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.grid_wrapper {
+  display: flex;
+  text-align: left;
+  padding-top: 145px;
+  justify-content: space-around;
+  margin-right: 5px;
+
+  
+}
+
+.price {
+   display: flex;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.features {
+  opacity: 0.4;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.check_ico {
+  padding: 18px 0px 0px 20px;
+}
+
+.metro_circle {
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #e71d32;
+  margin: 15px 0px 0px 0px;
+}
+
+.place {
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  margin-top: -15px;
+  opacity: 0.9;
+}
+
+.place_description {
+  padding-left: 15px;
+  }
+
+.first_choice {
+  margin-left: -15px;
+}
+
+.best_offers_bottom{
+  width: 890px;
+  height: 40px;
+  border-top: 2px solid #d8d8d8;
+  margin-left: -23px;
+  margin-top:50px;
+  line-height: 37px;
+
+}
+
+.see_all {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.8;
+  margin: 30px 0px 0px 0px;
+}

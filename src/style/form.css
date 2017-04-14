@@ -1,0 +1,76 @@
+@import url('../../fonts/stylesheet.css');
+
+h1 {
+	color: red;
+	font-family: 'open-sans', sans-serif;
+}
+
+body {
+	
+	font-family: 'open-sans', sans-serif;
+}
+.header_select {
+ 
+  width: 344px;
+  height: 40px;
+  border-width: 2px;
+  border-color: #dfe3e6;
+  cursor: pointer; 
+  content: url('../../img/Shape.png');
+  color: #30ae62; 
+  cursor: pointer;
+
+  /*background-image: url('../img/Shape.png');
+    background-position: right center;
+    background-repeat: no-repeat; */
+}
+
+.header_select:focus {
+    
+}
+
+.header_select:disabled {
+	opacity: 50%;
+}
+
+
+
+.city_selected:focus {
+  height: 40px;
+  border-color: green;
+}
+
+.city_selected:hover {
+}
+
+.city_selected, .header_select {
+	color: black;	
+	font-size: 14px;
+    padding-left: 8px;
+}
+
+
+.header_form:focus {
+	background-color: green;
+}
+
+select:focus {
+	border-color: green;
+	border-width: 3px;
+}
+
+form:focus {
+	border-color: green;
+	border-width: 3px;
+}
+
+
+
+
+
+
+
+
+
+/* форма */
+

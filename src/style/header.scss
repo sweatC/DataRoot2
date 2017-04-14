@@ -1,0 +1,278 @@
+body {
+  max-width: 1280px;
+  background: #edeeed;
+  display: block;
+  font-family: 'open_sans', sans-serif;
+  width: 100%;
+}
+
+.container {
+    max-width: 80%; 
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+.button {
+    display: inline-block;
+    text-align: center;
+    transition: background 500ms;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background: url('../img/background-min.png');
+	background-repeat: no-repeat;
+  background-position: center center;
+	max-height: 301px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     width: 100%;
+  margin-left: 25px;
+}
+
+.container2{
+
+    color: white;
+    text-align: left;
+}
+
+.logo_metrovka {
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 35px;
+    min-width: 35px;
+    margin: 23px 0px 0px 80px;
+  }
+
+.cursor_on {
+  color: white;
+  font-size: 14px;
+  font-weight: 300; 
+  margin-right: 44px;
+  display: flex;
+  height: 25px;
+  border-bottom: 2px solid transparent;
+
+}
+
+.cursor_on:hover {
+	border-bottom: 2px solid #FFFFFF;
+}
+
+.first_navigation {
+  display: flex;
+  list-style: none;
+}
+
+.navigation_top {
+  max-width: 454px;
+  width: 100%;
+  padding: 37px 0px 0px 30px;
+  display: flex; 
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+
+.little_ovals {
+  height: 20px;
+  width: 25px;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  margin-right: 5px; 
+}
+
+
+.little_oval {
+  width: 4px;
+  height: 4px;
+  background: #FFFFFF;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin: 5px 4px 0px 0px; 
+}
+
+.navi_on_the_left {
+  width: 100%;
+  max-width: 454px;
+  padding: 7px 0px 0px 40px;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  list-style: none;
+  font-size: 14px;
+  margin: 20px 0px 0px 40px;
+}
+
+.post_adv_item {
+  display: flex;
+}
+
+.post_adv {
+	width: 236px;
+	height: 40px;
+	color: #fff;
+	background: #43b573;
+	text-align: center;
+	padding-top: -5px;
+}
+
+.post_adv:hover {
+    background: #50da88;
+    transition: background 500ms;
+}
+
+.post_adv:disabled {
+	background: #43b573;
+}
+
+.post_adv_img {
+    height: 16px;
+    margin: auto 14px;
+}
+
+.cursor_on {
+  margin-right: 40px;
+}
+ 
+.log_in {
+	color: #fff;
+	padding: 10px 0px 0px 15px;
+  width: 60px; 
+  border-bottom: 2px solid transparent;
+}
+
+.log_in:hover {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.header_center {
+	height: 280px;
+	padding: 40px 0px 0px 80px; 
+}
+
+.big_header {
+     font-size: 32px;
+     font-weight: 400;
+}
+
+.header_lbl {
+	font-size: 14px;
+	font-weight: 300;
+	padding-bottom: 9px;
+}
+
+.dropdown {
+  width: 320px;
+  height: 40px;
+  border-width: 2px;
+  border-color: #dfe3e6;
+  cursor: pointer; 
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.dropdown {
+  min-width:344px;
+  min-height: 40px;
+  background-color: #fff;
+  border-radius: 0px;
+}
+
+.secondary_btn {
+  font-size: 14px;
+  font-style: bold;
+  width: 201px;
+  height: 30px;
+  padding-top: 10px;
+  color: #2fae62;
+  background: #fff;
+  margin: 25px 40px 0px 0px; 
+}
+
+.secondary_btn:hover {
+    color: #fff;
+    background: #30ae62;
+}
+
+.secondary_btn:disabled {
+    border-color: #2fae62;
+    background: #fff;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.header_checkbox_label {
+  cursor: pointer;
+}
+
+.header_center_content {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -22px;
+}
+
+.header_bottom_center {
+  width: 265px;
+  height: 66px;
+} 
+
+.rooms_counter {
+  margin-left: 10px;
+}
+
+.radio_label {
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  border-width: 10px;
+  display: inline-block;
+  color: white;
+  margin-left: 3px;
+  cursor: pointer;
+  border-color: white;
+  align-items: center;
+}
+
+.radio_span {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+.radio_border {
+  border: 2px solid #fff;
+}
+
+.radio_border:hover {
+   background-color: #fff;
+   color: black;
+   transition: background 700ms;
+}
+
+.radio_border:checked {
+  background-color: #fff;
+  color: black;
+}
+
